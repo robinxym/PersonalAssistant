@@ -19,6 +19,7 @@
 		4D4637531E0FF0C80016487D /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D4637511E0FF0C80016487D /* MainInterface.storyboard */; };
 		4D4637571E0FF0C80016487D /* PersonalAssistantNotificationContentExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 4D4637481E0FF0C70016487D /* PersonalAssistantNotificationContentExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		4D46375D1E0FF7B20016487D /* newspush.php in Resources */ = {isa = PBXBuildFile; fileRef = 4D46375C1E0FF7B20016487D /* newspush.php */; };
+		4D9CB1761E0FFD9000DD964C /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 4D9CB1751E0FFD9000DD964C /* README.md */; };
 		4DAF32F91E0F0E4F002E70D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DAF32F81E0F0E4F002E70D4 /* AppDelegate.swift */; };
 		4DAF32FB1E0F0E4F002E70D4 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DAF32FA1E0F0E4F002E70D4 /* FirstViewController.swift */; };
 		4DAF32FD1E0F0E4F002E70D4 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DAF32FC1E0F0E4F002E70D4 /* SecondViewController.swift */; };
@@ -91,6 +92,7 @@
 		4D4637521E0FF0C80016487D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
 		4D4637541E0FF0C80016487D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4D46375C1E0FF7B20016487D /* newspush.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; name = newspush.php; path = PersonalAssistantPush/newspush.php; sourceTree = "<group>"; };
+		4D9CB1751E0FFD9000DD964C /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		4DAF32F51E0F0E4F002E70D4 /* PersonalAssistant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PersonalAssistant.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DAF32F81E0F0E4F002E70D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4DAF32FA1E0F0E4F002E70D4 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -189,6 +191,7 @@
 		4DAF32EC1E0F0E4F002E70D4 = {
 			isa = PBXGroup;
 			children = (
+				4D9CB1751E0FFD9000DD964C /* README.md */,
 				4DAF32F71E0F0E4F002E70D4 /* PersonalAssistant */,
 				4DAF330E1E0F0E4F002E70D4 /* PersonalAssistantTests */,
 				4DAF33191E0F0E4F002E70D4 /* PersonalAssistantUITests */,
@@ -475,6 +478,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D9CB1761E0FFD9000DD964C /* README.md in Sources */,
 				4DAF32FD1E0F0E4F002E70D4 /* SecondViewController.swift in Sources */,
 				4DAF32F91E0F0E4F002E70D4 /* AppDelegate.swift in Sources */,
 				4D4637251E0FCBED0016487D /* MessageManager.swift in Sources */,
@@ -797,6 +801,7 @@
 				4D4637341E0FD1590016487D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4D4637581E0FF0C80016487D /* Build configuration list for PBXNativeTarget "PersonalAssistantNotificationContentExtension" */ = {
 			isa = XCConfigurationList;
@@ -805,6 +810,7 @@
 				4D46375A1E0FF0C80016487D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4DAF32F01E0F0E4F002E70D4 /* Build configuration list for PBXProject "PersonalAssistant" */ = {
 			isa = XCConfigurationList;
