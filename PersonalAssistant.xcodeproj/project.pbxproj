@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D4637231E0FC3390016487D /* MessageTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4637221E0FC3390016487D /* MessageTableViewController.swift */; };
+		4D4637251E0FCBED0016487D /* MessageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4637241E0FCBED0016487D /* MessageManager.swift */; };
+		4D46372D1E0FD1590016487D /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D46372C1E0FD1590016487D /* NotificationService.swift */; };
+		4D4637311E0FD1590016487D /* PersonalAssistantNotificationServiceExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 4D46372A1E0FD1590016487D /* PersonalAssistantNotificationServiceExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		4D4637411E0FEA840016487D /* queen.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D4637401E0FEA840016487D /* queen.png */; };
+		4D4637431E0FEAAD0016487D /* king.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D4637421E0FEAAD0016487D /* king.png */; };
+		4D46374B1E0FF0C70016487D /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D46374A1E0FF0C70016487D /* UserNotifications.framework */; };
+		4D46374D1E0FF0C70016487D /* UserNotificationsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D46374C1E0FF0C70016487D /* UserNotificationsUI.framework */; };
+		4D4637501E0FF0C80016487D /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D46374F1E0FF0C80016487D /* NotificationViewController.swift */; };
+		4D4637531E0FF0C80016487D /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D4637511E0FF0C80016487D /* MainInterface.storyboard */; };
+		4D4637571E0FF0C80016487D /* PersonalAssistantNotificationContentExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 4D4637481E0FF0C70016487D /* PersonalAssistantNotificationContentExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		4D46375D1E0FF7B20016487D /* newspush.php in Resources */ = {isa = PBXBuildFile; fileRef = 4D46375C1E0FF7B20016487D /* newspush.php */; };
 		4DAF32F91E0F0E4F002E70D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DAF32F81E0F0E4F002E70D4 /* AppDelegate.swift */; };
 		4DAF32FB1E0F0E4F002E70D4 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DAF32FA1E0F0E4F002E70D4 /* FirstViewController.swift */; };
 		4DAF32FD1E0F0E4F002E70D4 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DAF32FC1E0F0E4F002E70D4 /* SecondViewController.swift */; };
@@ -18,6 +30,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		4D46372F1E0FD1590016487D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4DAF32ED1E0F0E4F002E70D4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D4637291E0FD1590016487D;
+			remoteInfo = PersonalAssistantNotificationServiceExtension;
+		};
+		4D4637551E0FF0C80016487D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4DAF32ED1E0F0E4F002E70D4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D4637471E0FF0C70016487D;
+			remoteInfo = PersonalAssistantNotificationContentExtension;
+		};
 		4DAF330C1E0F0E4F002E70D4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 4DAF32ED1E0F0E4F002E70D4 /* Project object */;
@@ -34,7 +60,37 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		4D4637351E0FD1590016487D /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				4D4637571E0FF0C80016487D /* PersonalAssistantNotificationContentExtension.appex in Embed App Extensions */,
+				4D4637311E0FD1590016487D /* PersonalAssistantNotificationServiceExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		4D3FA5321E0FA60800191813 /* PersonalAssistant.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PersonalAssistant.entitlements; sourceTree = "<group>"; };
+		4D4637221E0FC3390016487D /* MessageTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageTableViewController.swift; sourceTree = "<group>"; };
+		4D4637241E0FCBED0016487D /* MessageManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageManager.swift; sourceTree = "<group>"; };
+		4D46372A1E0FD1590016487D /* PersonalAssistantNotificationServiceExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = PersonalAssistantNotificationServiceExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D46372C1E0FD1590016487D /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		4D46372E1E0FD1590016487D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D4637401E0FEA840016487D /* queen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = queen.png; sourceTree = "<group>"; };
+		4D4637421E0FEAAD0016487D /* king.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = king.png; sourceTree = "<group>"; };
+		4D4637481E0FF0C70016487D /* PersonalAssistantNotificationContentExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = PersonalAssistantNotificationContentExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D46374A1E0FF0C70016487D /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
+		4D46374C1E0FF0C70016487D /* UserNotificationsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotificationsUI.framework; path = System/Library/Frameworks/UserNotificationsUI.framework; sourceTree = SDKROOT; };
+		4D46374F1E0FF0C80016487D /* NotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
+		4D4637521E0FF0C80016487D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		4D4637541E0FF0C80016487D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D46375C1E0FF7B20016487D /* newspush.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; name = newspush.php; path = PersonalAssistantPush/newspush.php; sourceTree = "<group>"; };
 		4DAF32F51E0F0E4F002E70D4 /* PersonalAssistant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PersonalAssistant.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DAF32F81E0F0E4F002E70D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4DAF32FA1E0F0E4F002E70D4 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -52,6 +108,22 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		4D4637271E0FD1590016487D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D4637451E0FF0C70016487D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D46374D1E0FF0C70016487D /* UserNotificationsUI.framework in Frameworks */,
+				4D46374B1E0FF0C70016487D /* UserNotifications.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4DAF32F21E0F0E4F002E70D4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -76,12 +148,54 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4D46372B1E0FD1590016487D /* PersonalAssistantNotificationServiceExtension */ = {
+			isa = PBXGroup;
+			children = (
+				4D4637401E0FEA840016487D /* queen.png */,
+				4D4637421E0FEAAD0016487D /* king.png */,
+				4D46372C1E0FD1590016487D /* NotificationService.swift */,
+				4D46372E1E0FD1590016487D /* Info.plist */,
+			);
+			path = PersonalAssistantNotificationServiceExtension;
+			sourceTree = "<group>";
+		};
+		4D4637491E0FF0C70016487D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4D46374A1E0FF0C70016487D /* UserNotifications.framework */,
+				4D46374C1E0FF0C70016487D /* UserNotificationsUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4D46374E1E0FF0C80016487D /* PersonalAssistantNotificationContentExtension */ = {
+			isa = PBXGroup;
+			children = (
+				4D46374F1E0FF0C80016487D /* NotificationViewController.swift */,
+				4D4637511E0FF0C80016487D /* MainInterface.storyboard */,
+				4D4637541E0FF0C80016487D /* Info.plist */,
+			);
+			path = PersonalAssistantNotificationContentExtension;
+			sourceTree = "<group>";
+		};
+		4D46375B1E0FF78E0016487D /* PersonalAssistantPush */ = {
+			isa = PBXGroup;
+			children = (
+				4D46375C1E0FF7B20016487D /* newspush.php */,
+			);
+			name = PersonalAssistantPush;
+			sourceTree = "<group>";
+		};
 		4DAF32EC1E0F0E4F002E70D4 = {
 			isa = PBXGroup;
 			children = (
 				4DAF32F71E0F0E4F002E70D4 /* PersonalAssistant */,
 				4DAF330E1E0F0E4F002E70D4 /* PersonalAssistantTests */,
 				4DAF33191E0F0E4F002E70D4 /* PersonalAssistantUITests */,
+				4D46372B1E0FD1590016487D /* PersonalAssistantNotificationServiceExtension */,
+				4D46374E1E0FF0C80016487D /* PersonalAssistantNotificationContentExtension */,
+				4D46375B1E0FF78E0016487D /* PersonalAssistantPush */,
+				4D4637491E0FF0C70016487D /* Frameworks */,
 				4DAF32F61E0F0E4F002E70D4 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -92,6 +206,8 @@
 				4DAF32F51E0F0E4F002E70D4 /* PersonalAssistant.app */,
 				4DAF330B1E0F0E4F002E70D4 /* PersonalAssistantTests.xctest */,
 				4DAF33161E0F0E4F002E70D4 /* PersonalAssistantUITests.xctest */,
+				4D46372A1E0FD1590016487D /* PersonalAssistantNotificationServiceExtension.appex */,
+				4D4637481E0FF0C70016487D /* PersonalAssistantNotificationContentExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -99,9 +215,12 @@
 		4DAF32F71E0F0E4F002E70D4 /* PersonalAssistant */ = {
 			isa = PBXGroup;
 			children = (
+				4D3FA5321E0FA60800191813 /* PersonalAssistant.entitlements */,
 				4DAF32F81E0F0E4F002E70D4 /* AppDelegate.swift */,
 				4DAF32FA1E0F0E4F002E70D4 /* FirstViewController.swift */,
 				4DAF32FC1E0F0E4F002E70D4 /* SecondViewController.swift */,
+				4D4637221E0FC3390016487D /* MessageTableViewController.swift */,
+				4D4637241E0FCBED0016487D /* MessageManager.swift */,
 				4DAF32FE1E0F0E4F002E70D4 /* Main.storyboard */,
 				4DAF33011E0F0E4F002E70D4 /* Assets.xcassets */,
 				4DAF33031E0F0E4F002E70D4 /* LaunchScreen.storyboard */,
@@ -131,6 +250,40 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		4D4637291E0FD1590016487D /* PersonalAssistantNotificationServiceExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D4637321E0FD1590016487D /* Build configuration list for PBXNativeTarget "PersonalAssistantNotificationServiceExtension" */;
+			buildPhases = (
+				4D4637261E0FD1590016487D /* Sources */,
+				4D4637271E0FD1590016487D /* Frameworks */,
+				4D4637281E0FD1590016487D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PersonalAssistantNotificationServiceExtension;
+			productName = PersonalAssistantNotificationServiceExtension;
+			productReference = 4D46372A1E0FD1590016487D /* PersonalAssistantNotificationServiceExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		4D4637471E0FF0C70016487D /* PersonalAssistantNotificationContentExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D4637581E0FF0C80016487D /* Build configuration list for PBXNativeTarget "PersonalAssistantNotificationContentExtension" */;
+			buildPhases = (
+				4D4637441E0FF0C70016487D /* Sources */,
+				4D4637451E0FF0C70016487D /* Frameworks */,
+				4D4637461E0FF0C70016487D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PersonalAssistantNotificationContentExtension;
+			productName = PersonalAssistantNotificationContentExtension;
+			productReference = 4D4637481E0FF0C70016487D /* PersonalAssistantNotificationContentExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 		4DAF32F41E0F0E4F002E70D4 /* PersonalAssistant */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4DAF331F1E0F0E4F002E70D4 /* Build configuration list for PBXNativeTarget "PersonalAssistant" */;
@@ -138,10 +291,13 @@
 				4DAF32F11E0F0E4F002E70D4 /* Sources */,
 				4DAF32F21E0F0E4F002E70D4 /* Frameworks */,
 				4DAF32F31E0F0E4F002E70D4 /* Resources */,
+				4D4637351E0FD1590016487D /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				4D4637301E0FD1590016487D /* PBXTargetDependency */,
+				4D4637561E0FF0C80016487D /* PBXTargetDependency */,
 			);
 			name = PersonalAssistant;
 			productName = PersonalAssistant;
@@ -194,10 +350,28 @@
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = Robin;
 				TargetAttributes = {
+					4D4637291E0FD1590016487D = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = YHAP6ZWY6L;
+						ProvisioningStyle = Automatic;
+					};
+					4D4637471E0FF0C70016487D = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = YHAP6ZWY6L;
+						ProvisioningStyle = Automatic;
+					};
 					4DAF32F41E0F0E4F002E70D4 = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = YHAP6ZWY6L;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 					4DAF330A1E0F0E4F002E70D4 = {
 						CreatedOnToolsVersion = 8.2.1;
@@ -229,11 +403,30 @@
 				4DAF32F41E0F0E4F002E70D4 /* PersonalAssistant */,
 				4DAF330A1E0F0E4F002E70D4 /* PersonalAssistantTests */,
 				4DAF33151E0F0E4F002E70D4 /* PersonalAssistantUITests */,
+				4D4637291E0FD1590016487D /* PersonalAssistantNotificationServiceExtension */,
+				4D4637471E0FF0C70016487D /* PersonalAssistantNotificationContentExtension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		4D4637281E0FD1590016487D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D4637431E0FEAAD0016487D /* king.png in Resources */,
+				4D4637411E0FEA840016487D /* queen.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D4637461E0FF0C70016487D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D4637531E0FF0C80016487D /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4DAF32F31E0F0E4F002E70D4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -241,6 +434,7 @@
 				4DAF33051E0F0E4F002E70D4 /* LaunchScreen.storyboard in Resources */,
 				4DAF33021E0F0E4F002E70D4 /* Assets.xcassets in Resources */,
 				4DAF33001E0F0E4F002E70D4 /* Main.storyboard in Resources */,
+				4D46375D1E0FF7B20016487D /* newspush.php in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,12 +455,30 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		4D4637261E0FD1590016487D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D46372D1E0FD1590016487D /* NotificationService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D4637441E0FF0C70016487D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D4637501E0FF0C80016487D /* NotificationViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4DAF32F11E0F0E4F002E70D4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				4DAF32FD1E0F0E4F002E70D4 /* SecondViewController.swift in Sources */,
 				4DAF32F91E0F0E4F002E70D4 /* AppDelegate.swift in Sources */,
+				4D4637251E0FCBED0016487D /* MessageManager.swift in Sources */,
+				4D4637231E0FC3390016487D /* MessageTableViewController.swift in Sources */,
 				4DAF32FB1E0F0E4F002E70D4 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -290,6 +502,16 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		4D4637301E0FD1590016487D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4D4637291E0FD1590016487D /* PersonalAssistantNotificationServiceExtension */;
+			targetProxy = 4D46372F1E0FD1590016487D /* PBXContainerItemProxy */;
+		};
+		4D4637561E0FF0C80016487D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4D4637471E0FF0C70016487D /* PersonalAssistantNotificationContentExtension */;
+			targetProxy = 4D4637551E0FF0C80016487D /* PBXContainerItemProxy */;
+		};
 		4DAF330D1E0F0E4F002E70D4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 4DAF32F41E0F0E4F002E70D4 /* PersonalAssistant */;
@@ -303,6 +525,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		4D4637511E0FF0C80016487D /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D4637521E0FF0C80016487D /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
 		4DAF32FE1E0F0E4F002E70D4 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -322,6 +552,58 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		4D4637331E0FD1590016487D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = YHAP6ZWY6L;
+				INFOPLIST_FILE = PersonalAssistantNotificationServiceExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.greenleaf.PersonalAssistant.PersonalAssistantNotificationServiceExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		4D4637341E0FD1590016487D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = YHAP6ZWY6L;
+				INFOPLIST_FILE = PersonalAssistantNotificationServiceExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.greenleaf.PersonalAssistant.PersonalAssistantNotificationServiceExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		4D4637591E0FF0C80016487D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = YHAP6ZWY6L;
+				INFOPLIST_FILE = PersonalAssistantNotificationContentExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.greenleaf.PersonalAssistant.PersonalAssistantNotificationContentExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		4D46375A1E0FF0C80016487D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = YHAP6ZWY6L;
+				INFOPLIST_FILE = PersonalAssistantNotificationContentExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.greenleaf.PersonalAssistant.PersonalAssistantNotificationContentExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
 		4DAF331D1E0F0E4F002E70D4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -418,7 +700,10 @@
 		4DAF33201E0F0E4F002E70D4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = PersonalAssistant/PersonalAssistant.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = YHAP6ZWY6L;
 				INFOPLIST_FILE = PersonalAssistant/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -431,7 +716,10 @@
 		4DAF33211E0F0E4F002E70D4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = PersonalAssistant/PersonalAssistant.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = YHAP6ZWY6L;
 				INFOPLIST_FILE = PersonalAssistant/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -502,6 +790,22 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		4D4637321E0FD1590016487D /* Build configuration list for PBXNativeTarget "PersonalAssistantNotificationServiceExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D4637331E0FD1590016487D /* Debug */,
+				4D4637341E0FD1590016487D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4D4637581E0FF0C80016487D /* Build configuration list for PBXNativeTarget "PersonalAssistantNotificationContentExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D4637591E0FF0C80016487D /* Debug */,
+				4D46375A1E0FF0C80016487D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		4DAF32F01E0F0E4F002E70D4 /* Build configuration list for PBXProject "PersonalAssistant" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -518,6 +822,7 @@
 				4DAF33211E0F0E4F002E70D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4DAF33221E0F0E4F002E70D4 /* Build configuration list for PBXNativeTarget "PersonalAssistantTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +831,7 @@
 				4DAF33241E0F0E4F002E70D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4DAF33251E0F0E4F002E70D4 /* Build configuration list for PBXNativeTarget "PersonalAssistantUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +840,7 @@
 				4DAF33271E0F0E4F002E70D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
